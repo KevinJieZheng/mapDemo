@@ -2,10 +2,13 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import demo1 from '@/components/demo1.vue'
 import demo2 from '@/components/demo2.vue'
+import * as echarts from 'echarts';
 
+Vue.use(echarts);
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history', 
   routes: [
     {
       path: '/',

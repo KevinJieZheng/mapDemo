@@ -1,9 +1,6 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import * as echarts from 'echarts';
-
-Vue.use(echarts);
 
 Vue.config.productionTip = false
 

@@ -89,11 +89,11 @@
   </div>
 </template>
 <script>
-import {setOption}  from '../utils/echarts1.js'
-import {setOption2}  from '../utils/echarts2.js'
-import {setOption3}  from '../utils/echarts3.js'
-import {setOption4}  from '../utils/echarts4.js'
-import {setOption5}  from '../utils/echarts5.js'
+import {setOption}  from '../utils/demo1/echarts1.js'
+import {setOption2}  from '../utils/demo1/echarts2.js'
+import {setOption3}  from '../utils/demo1/echarts3.js'
+import {setOption4}  from '../utils/demo1/echarts4.js'
+import {setOption5}  from '../utils/demo1/echarts5.js'
 
  export default {
   name: 'demo1',
@@ -154,15 +154,10 @@ import {setOption5}  from '../utils/echarts5.js'
 
 <style>
 
-* {
-  margin: 0px;
-  padding: 0px;
-}
-html{
-  background: #000; 
-}
+
 #demo1{
   height: 100vh;
+  background: #000; 
 }
 a{
   text-decoration: none;
