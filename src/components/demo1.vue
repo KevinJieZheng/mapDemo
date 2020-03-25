@@ -159,12 +159,7 @@ import {setOption5}  from '../utils/demo1/echarts5.js'
   height: 100vh;
   background: #000; 
 }
-a{
-  text-decoration: none;
-}
-ul{
-  list-style: none;
-}
+
 header,footer{ 
   position: fixed;
   height:10vh;

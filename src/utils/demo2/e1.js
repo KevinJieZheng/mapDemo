@@ -1,5 +1,6 @@
 const echarts = require('echarts');
 
+
 var datacity = ['东城区', '西城区', '朝阳区', '顺义区', '通州区', '怀柔区'];
 
 function init(){
@@ -11,7 +12,7 @@ function init(){
             text:'已有区域类型分析',
             textStyle:{
                 color:'#fff',
-                fontSize:'12'
+                fontSize:11,
             },
             top: '5%',
             left:'5%', 
@@ -20,6 +21,7 @@ function init(){
         tooltip: {
             trigger: 'axis',
         },
+        animationDelay:800,
         legend: {
             top: '85%',
             data: ['已规划建设', '正在规划建设'],
@@ -124,6 +126,7 @@ function init(){
  
 function setData(myDOM){
     var myC = echarts.init(myDOM);
+    myC.clear();
     myC.setOption(init());
     //console.log(myC)
     return myC;
