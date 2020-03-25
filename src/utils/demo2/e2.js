@@ -14,9 +14,10 @@ function init(){
             text:title,
             textStyle:{
                 color:'#fff',
+                fontSize:11,
             },
             top: '5%',
-           left:'5%', 
+            left:'5%',
         },
         animationDelay:500,
         grid: {
