@@ -7,12 +7,12 @@ var width2 = "51%";
 
 function setOption(maxData,data,myDOM){ 
     if (value > sumData) value = sumData;
-    console.log(myDOM)
+    
     value = data;
     sumData = maxData;
     var myC = echarts.init(myDOM)
     myC.setOption(getOption());
-
+    console.log(myC)
     return myC
 }
 function getOption(){
